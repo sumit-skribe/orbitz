@@ -1,4 +1,6 @@
-.ak_main{
+/* QR Code Start Here */
+.ak_main
+{
     height:400px;
     width:97%;
     margin: auto;
@@ -6,34 +8,47 @@
     box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.ak_img>img{
-height: 400px;
-width:500px;
+.ak_img > img
+{
+    height: 400px;
+    width:500px;
 }
-ul{
+
+ul
+{
     font-size: 25px;
     color:#616161
 }
-.ak_code{
+.ak_code
+{
     height:60px;
     width:200px;
     background-color: beige;
     margin-left: 20px;
 }
-h1,h2{
+
+h1,h2
+{
     margin-left: 20px;
 }
 
-p{
+p
+{
     color:#616161;
     text-align: justify;
     margin-left: 10px;
     font-size: 20px;
 }
-.ak_Qr{
+
+.ak_Qr
+{
     height:200px;
     width:200px
 }
-.qr{
+
+.qr
+{
     line-height: 0.2px;
 }
+
+/* QR Code Ends Here */
