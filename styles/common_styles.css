@@ -1,7 +1,151 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+} 
+
 body
 {
     background-color: #f5f5f5;
 }
+/* Main content Start Here */
+.sk_breadcumb
+{
+    background-image:url("https://forever.travel-assets.com/flex/flexmanager/images/2022/03/14/ORB_MarchSale_imgB_1920x1440_20220225.jpg");
+    width: 100%;
+    background-position:center 100%;
+    padding:2rem 0;
+}
+
+.sk_mult_form{
+    max-width: 70rem;
+    box-shadow:0 1px 3px rgb(77, 34, 34);
+    background-color: white;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:2rem 0;
+    flex-direction:column;
+}
+
+.sk_tabbed-interface
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.sk_tabbed-interface button
+{
+    border: none;
+    margin-right: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.margin
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.button-margin
+{
+    margin-top: 20px;
+}
+
+.button-margin button
+{
+    border: none;
+    background-color: #CF4B6D;
+    color: white !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.sk_container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.sk_font
+{
+    display: flex;
+    border: 1px solid teal;
+}
+
+.sk_font > input
+{
+    border:none;
+    padding: 10px;
+}
+
+.sk_font > input:focus
+{
+    outline: none;
+}
+
+.sk_font > i
+{
+    margin: 10px;
+}
+
+.sk_font > input[type="date"]::-webkit-calendar-picker-indicator
+{
+    display: none;
+    -webkit-appearance: none;
+}
+
+.sk_yourdeal
+{
+    max-width: 70rem;
+    margin:20px auto;
+}
+
+.sk_yourdeal  h2
+{
+    color: white;
+    font-weight: bolder;
+    margin-left: 0px;
+    
+}
+
+.sk_yourdeal  p
+{
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 12px;
+}
+
+.sk_yourdeal  button
+{
+    border: none;
+    background-color: white;
+    color: teal !important;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sk_yourdeal > div
+{
+    width: 50%;
+}
+/* Main content Ends Here */
 
 /* QR Code Start Here */
 .ak_main
