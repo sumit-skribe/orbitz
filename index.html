@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,239 +8,244 @@
     <link rel="stylesheet" href="./styles/common_styles.css">
     <title>Orbitz Hotel Deals, Flights, Cheap Vacations & Rental Cars</title>
     <link type="image/x-icon" href="https://www.orbitz.com/favicon.ico" sizes="16x16 32x32" rel="shortcut icon">
-    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <div class="sk_breadcumb">
         <div class="sk_mult_form">
             <div class="sk_tabbed-interface">
-              <button  onclick="openService('Stays')">Stays</button>
-              <button  onclick="openService('Flights')">Flights</button>
-              <button  onclick="openService('Cars')">Cars</button>
-              <button  onclick="openService('Packages')">Packages</button>
-              <button  onclick="openService('Things to do')">Things to do</button>
-              <button  onclick="openService('Cruises')">Cruises</button>
+                <button onclick="openService('Stays')">Stays</button>
+                <button onclick="openService('Flights')">Flights</button>
+                <button onclick="openService('Cars')">Cars</button>
+                <button onclick="openService('Packages')">Packages</button>
+                <button onclick="openService('Things to do')">Things to do</button>
+                <button onclick="openService('Cruises')">Cruises</button>
             </div>
 
             <div id="Stays" class="service margin">
-              <div class="sk_container">
-                <div class="sk_font">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <input type="text" placeholder="Going to" /> 
+                <div class="sk_container">
+                    <div class="sk_font">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Travelers" />
+                    </div>
+
+                    <!-- checkbox added -->
+                    <div class="sk_font">
+                        <div>
+                            <input type="checkbox">
+                            <span>Add a Flight</span>
+                        </div>
+
+                        <div>
+                            <input type="checkbox">
+                            <span>Add a Car</span>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
+                <div class="button-margin">
+                    <center><button>Search</button></center>
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
-                </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-user"></i>
-                  <input type="text" placeholder="Travelers" /> 
-              </div>
-                
-              </div>
-              <div class="button-margin">
-                <center><button>Search</button></center>
-              </div>
-              
+
             </div>
 
             <div id="Flights" class="service margin" style="display: none;">
-              <div class="sk_container">
-                <div class="sk_font">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <input type="text" placeholder="Going to" /> 
+                <div class="sk_container">
+                    <div class="sk_font">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Travelers" />
+                    </div>
+
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
+                <div class="button-margin">
+                    <center><button>Search</button></center>
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
-                </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-user"></i>
-                  <input type="text" placeholder="Travelers" /> 
-              </div>
-                
-              </div>
-              <div class="button-margin">
-                <center><button>Search</button></center>
-              </div>
-              
+
             </div>
 
             <div id="Cars" class="service margin" style="display: none;">
-              <div class="sk_container">
-                <div class="sk_font">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <input type="text" placeholder="Going to" /> 
+                <div class="sk_container">
+                    <div class="sk_font">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Travelers" />
+                    </div>
+
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
+                <div class="button-margin">
+                    <center><button>Search</button></center>
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
-                </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-user"></i>
-                  <input type="text" placeholder="Travelers" /> 
-              </div>
-                
-              </div>
-              <div class="button-margin">
-                <center><button>Search</button></center>
-              </div>
-              
+
             </div>
-            
+
             <div id="Packages" class="service margin" style="display: none;">
-              <div class="sk_container">
-                <div class="sk_font">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <input type="text" placeholder="Going to" /> 
+                <div class="sk_container">
+                    <div class="sk_font">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Travelers" />
+                    </div>
+
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
+                <div class="button-margin">
+                    <center><button>Search</button></center>
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
-                </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-user"></i>
-                  <input type="text" placeholder="Travelers" /> 
-              </div>
-                
-              </div>
-              <div class="button-margin">
-                <center><button>Search</button></center>
-              </div>
-              
+
             </div>
 
             <div id="Things to do" class="service margin" style="display: none;">
-              <div class="sk_container">
-                <div class="sk_font">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <input type="text" placeholder="Going to" /> 
+                <div class="sk_container">
+                    <div class="sk_font">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Travelers" />
+                    </div>
+
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
+                <div class="button-margin">
+                    <center><button>Search</button></center>
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
-                </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-user"></i>
-                  <input type="text" placeholder="Travelers" /> 
-              </div>
-                
-              </div>
-              <div class="button-margin">
-                <center><button>Search</button></center>
-              </div>
-              
+
             </div>
 
 
             <div id="Cruises" class="service margin" style="display: none;">
-              <div class="sk_container">
-                <div class="sk_font">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <input type="text" placeholder="Going to" /> 
+                <div class="sk_container">
+                    <div class="sk_font">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="date" placeholder="Going to" />
+                    </div>
+                    <div class="sk_font">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Travelers" />
+                    </div>
+
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
+                <div class="button-margin">
+                    <center><button>Search</button></center>
                 </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-calendar-day"></i>
-                  <input type="date" placeholder="Going to" /> 
-                </div>
-                <div class="sk_font">
-                  <i class="fa-solid fa-user"></i>
-                  <input type="text" placeholder="Travelers" /> 
-              </div>
-                
-              </div>
-              <div class="button-margin">
-                <center><button>Search</button></center>
-              </div>
-              
+
             </div>
-            
+
         </div>
 
         <!-- Mult Form End Here-->
         <div class="sk_yourdeal">
-          <div>
-            <h2>Spring is for getaways</h2>
-            <p>Go get 30% or more off select hotels with Insider Prices and come back a refreshed you.</p>
-            <button>Your deals</button>
-          </div>
-        </div> 
-      </div>
-       
-      <!-- code is written by AV -->
-      <div class="av_main">
+            <div>
+                <h2>Spring is for getaways</h2>
+                <p>Go get 30% or more off select hotels with Insider Prices and come back a refreshed you.</p>
+                <button>Your deals</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- code is written by AV -->
+    <div class="av_main">
         <div class="av_row">
-          <div class="av_column">
-            <img
-              src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_TravelAsYouAre_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
-              style="width: 100%"
-              alt=""
-            />
-          </div>
-          <div class="av_column">
-            <img
-              src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_Rewards_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
-              style="width: 100%"
-              alt=""
-            />
-          </div>
-          <div class="av_column">
-            <img
-              src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_InsiderPrices_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
-              style="width: 100%"
-              alt=""
-            />
-          </div>
+            <div class="av_column">
+                <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_TravelAsYouAre_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
+                    style="width: 100%" alt="" />
+            </div>
+            <div class="av_column">
+                <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_Rewards_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
+                    style="width: 100%" alt="" />
+            </div>
+            <div class="av_column">
+                <img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_InsiderPrices_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh"
+                    style="width: 100%" alt="" />
+            </div>
         </div>
-  
+
         <h2 class="av_h3">Featured offers</h2>
-  
+
         <div class="av_row1">
-          <div class="av_img1">
-            <h3>Last-Minute Deal</h3>
-            <p>Getaway today</p>
-          </div>
-  
-          <div class="av_img2">
-            <h3>All-inclusive resorts</h3>
-            <p>Enjoy sun and fun</p>
-          </div>
-          <div class="av_img3">
-            <h3>Insider Prices</h3>
-            <p>Members get rewarded</p>
-          </div>
-          <div class="av_img4">
-            <h3>Jet and reset</h3>
-            <p>Fly somewhere beachy and warm</p>
-          </div>
+            <div class="av_img1">
+                <h3>Last-Minute Deal</h3>
+                <p>Getaway today</p>
+            </div>
+
+            <div class="av_img2">
+                <h3>All-inclusive resorts</h3>
+                <p>Enjoy sun and fun</p>
+            </div>
+            <div class="av_img3">
+                <h3>Insider Prices</h3>
+                <p>Members get rewarded</p>
+            </div>
+            <div class="av_img4">
+                <h3>Jet and reset</h3>
+                <p>Fly somewhere beachy and warm</p>
+            </div>
         </div>
-      </div>
-   <!-- code is end by AV   -->
+    </div>
+    <!-- code is end by AV   -->
 
     <div class="ap_outer">
         <h1 class="ap_here">Here to help keep you on the move</h1>
@@ -251,7 +257,7 @@
             <div class="ap_text">
                 <h3>Use a credit or coupon<i class="fa-solid fa-dollar-sign"></i></h3>
                 <p>Apply a coupon code or credit to a new trip</p>
-            </div >
+            </div>
             <div class="ap_text">
                 <h3>Track Your Refund<i class="fa-solid fa-message"></i></h3>
                 <p>Check the status of a refund currently in progress</p>
@@ -259,73 +265,76 @@
         </div>
         <h1 id="ap_h1">Traveling tips</h1>
         <div class="ap_inner">
-            <div class="ap_inner1"><h2>National Parks</h2>
+            <div class="ap_inner1">
+                <h2>National Parks</h2>
                 <p>There's plenty to keep you busy.</p>
                 <button>Learn More</button>
             </div>
             <div class="ap_inner2">
-              <h2>The perfect road trip</h2>
-              <p>Find an adventure for every season.</p>
-              <button>Read On</button>
+                <h2>The perfect road trip</h2>
+                <p>Find an adventure for every season.</p>
+                <button>Read On</button>
             </div>
-            
+
         </div>
-            <img src="https://tpc.googlesyndication.com/simgad/8779670867843679607?">
+        <img src="https://tpc.googlesyndication.com/simgad/8779670867843679607?">
     </div>
 
     <div class="ak_main">
         <div class="ak_img">
             <img src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="">
-            </div>
-            <div class="ak_info">
-              <h1>Rewards are waiting for you in the Orbitz app</h1> 
-              <ul >
-             <li type="disc">Earn 4% back when you book your hotel in app, vs. 3% on site</li>
-             <li type="disc">Get flight status and gate number notifications</li>
-             <li type="disc">Have questions about your stay? Message your hotel right in the app</li>
-              </ul>
-              <h2>Text yourself a download link</h2>
-              <select name="code" class="ak_code">
-                  <option value="India">India</option>
-                  <option value="Thiland">Thiland</option>
-                  <option value="Goa">Goa</option>
-                </select>
-  
-                <input type="number" class="ak_code">
-                <button class="ak_code" style="background-color: rgb(182, 45, 45);">GET APP</button>
-                <p>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
-            </div>
-            <div class="qr">
-                <img class="ak_Qr" src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png" alt="">
-                <h3>SCAN THE QR CODE</h3>
-            </div>
+        </div>
+        <div class="ak_info">
+            <h1>Rewards are waiting for you in the Orbitz app</h1>
+            <ul>
+                <li type="disc">Earn 4% back when you book your hotel in app, vs. 3% on site</li>
+                <li type="disc">Get flight status and gate number notifications</li>
+                <li type="disc">Have questions about your stay? Message your hotel right in the app</li>
+            </ul>
+            <h2>Text yourself a download link</h2>
+            <select name="code" class="ak_code">
+                <option value="India">India</option>
+                <option value="Thiland">Thiland</option>
+                <option value="Goa">Goa</option>
+            </select>
+
+            <input type="number" class="ak_code">
+            <button class="ak_code" style="background-color: rgb(182, 45, 45);">GET APP</button>
+            <p>By providing your number, you agree to receive a one-time automated text message with a link to get the
+                app. Standard text message rates may apply.</p>
+        </div>
+        <div class="qr">
+            <img class="ak_Qr"
+                src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png"
+                alt="">
+            <h3>SCAN THE QR CODE</h3>
+        </div>
     </div>
 
 
 </body>
+
 </html>
 
 <script>
 
-    function openService(service) 
-    {
-      var i;
-      var x = document.getElementsByClassName("service");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-    
-      document.getElementById(service).style.display = "block";
-      
-      x = document.querySelectorAll('button');
-      for( i = 0; i < x.length; i += 1)
-      {
-          x[i].style.borderBottom = "none";
-          x[i].style.color = "black";
-      }
-    
-      event.target.style.color = "teal"
-      event.target.style.borderBottom = "3px solid teal";
+    function openService(service) {
+        var i;
+        var x = document.getElementsByClassName("service");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+
+        document.getElementById(service).style.display = "block";
+
+        x = document.querySelectorAll('button');
+        for (i = 0; i < x.length; i += 1) {
+            x[i].style.borderBottom = "none";
+            x[i].style.color = "black";
+        }
+
+        event.target.style.color = "teal"
+        event.target.style.borderBottom = "3px solid teal";
     }
-    
-    </script>
+
+</script>

@@ -67,8 +67,16 @@ body {
 
 .sk_container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 3fr 1fr 1fr 2fr;
   grid-gap: 10px;
+}
+
+.sk_container > .sk_font:nth-child(5)
+{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 10px;
+    border: none !important;
 }
 
 .sk_font {
