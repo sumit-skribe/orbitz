@@ -19,7 +19,7 @@ body
 }
 
 .sk_mult_form{
-    max-width: 70rem;
+    max-width: 90%;
     box-shadow:0 1px 3px rgb(77, 34, 34);
     background-color: white;
     margin:0 auto;
@@ -109,7 +109,7 @@ body
 
 .sk_yourdeal
 {
-    max-width: 70rem;
+    max-width: 90%;
     margin:20px auto;
 }
 
@@ -146,61 +146,6 @@ body
     width: 50%;
 }
 /* Main content Ends Here */
-
-/* QR Code Start Here */
-.ak_main
-{
-    height:400px;
-    width:97%;
-    margin: auto;
-    display: flex;
-    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.ak_img > img
-{
-    height: 400px;
-    width:500px;
-}
-
-ul
-{
-    font-size: 25px;
-    color:#616161
-}
-.ak_code
-{
-    height:60px;
-    width:200px;
-    background-color: beige;
-    margin-left: 20px;
-}
-
-h1,h2
-{
-    margin-left: 20px;
-}
-
-p
-{
-    color:#616161;
-    text-align: justify;
-    margin-left: 10px;
-    font-size: 20px;
-}
-
-.ak_Qr
-{
-    height:200px;
-    width:200px
-}
-
-.qr
-{
-    line-height: 0.2px;
-}
-
-/* QR Code Ends Here */
 
 /* Help & Travelling Tips Start Here */
 
@@ -314,3 +259,59 @@ p
     margin-left: 10%;
 }
 /* Help & Travelling Tips End Here */
+
+
+/* QR Code Start Here */
+.ak_main
+{
+    height:400px;
+    width:90%;
+    margin: auto;
+    display: flex;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ak_img > img
+{
+    height: 400px;
+    width:500px;
+}
+
+ul
+{
+    font-size: 25px;
+    color:#616161
+}
+.ak_code
+{
+    height:60px;
+    width:200px;
+    background-color: beige;
+    margin-left: 20px;
+}
+
+h1,h2
+{
+    margin-left: 20px;
+}
+
+p
+{
+    color:#616161;
+    text-align: justify;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.ak_Qr
+{
+    height:200px;
+    width:200px
+}
+
+.qr
+{
+    line-height: 0.2px;
+}
+
+/* QR Code Ends Here */
