@@ -278,7 +278,6 @@ body {
 .ap_inner2 {
   margin-top: -30px;
   padding: 30px;
-  color: white;
   background-size: cover;
 }
 .ap_inner1 {
@@ -292,10 +291,12 @@ body {
 
 .ap_inner > div > p {
   margin-top: -10px;
+  color: white;
 }
 
 .ap_inner > div > h2 {
   margin-top: 40px;
+  color: white;
 }
 
 .ap_inner > div > button {
@@ -308,6 +309,19 @@ body {
   font-weight: bolder;
 }
 
+.ap_outer
+{
+    margin-top: 40px;
+}
+.ap_outer .ap_here
+{
+    margin-left: 0px;
+}
+
+#ap_h1
+{
+    margin-left: 0px;
+}
 .ap_outer > img {
   margin-top: 60px;
   margin-left: 10%;
