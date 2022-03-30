@@ -26,13 +26,15 @@ body {
   flex-direction: column;
 }
 
-.sk_tabbed-interface {
+.sk_tabbed-interface 
+{
   display: flex;
   width: 90%;
   margin: auto;
   border-bottom: 1px solid black;
   justify-content: center;
   box-sizing: border-box;
+
 }
 
 .sk_tabbed-interface button {
@@ -40,6 +42,12 @@ body {
   margin-right: 5px;
   background-color: white;
   padding: 10px;
+
+  font-family: "Segoe UI";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height:18px;
 }
 
 .margin {
@@ -97,28 +105,42 @@ body {
   margin: 20px auto;
 }
 
-.sk_yourdeal h2 {
-  color: white;
-  font-weight: bolder;
+.sk_yourdeal h2 
+{
   margin-left: 0px;
+  font-family:  "Segoe UI";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height:32px;
+  color: #ffffff
 }
 
 .sk_yourdeal p {
-  color: white;
   margin-top: 10px;
   margin-left: 0px;
   margin-bottom: 12px;
+  font-family:  "Segoe UI";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height:22px;
+  color: #ffffff
 }
 
 .sk_yourdeal button {
   border: none;
   background-color: white;
-  color: teal !important;
-  font-weight: bold;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-right: 15px;
   padding-left: 15px;
+  font-family:  "Segoe UI";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height:20px;
+  color: teal !important;
 }
 
 .sk_yourdeal > div {
