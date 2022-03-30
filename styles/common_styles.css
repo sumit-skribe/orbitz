@@ -547,51 +547,80 @@ body {
 /* Help & Travelling Tips End Here */
 
 /* QR Code Start Here */
-.ak_main {
-  height: 400px;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.ak_qr>img{
+    
+  height:100px;
+  width:100px;
+  margin-left: 25px;
 }
-
-.ak_img > img {
-  height: 400px;
-  width: 500px;
-}
-
-.ak_main ul {
-  font-size: 25px;
-  color: #616161;
-}
-.ak_code {
-  height: 60px;
-  width: 200px;
-  background-color: beige;
+.ak_qr>h3{
   margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
-.ak_main h1,
-.ak_main h2 {
-  margin-left: 20px;
-}
+.ak_main{
+height:360px;
+width:90%;
+display: flex;
 
-.ak_main p {
-  color: #616161;
-  text-align: justify;
+margin :auto;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; ;
+}
+.ak_mobileimg>img{
+  height:360px;
+  width:400px;
+ 
+}
+.ak_details{
+  
+  margin-left: 17px;
+
+  width:650px;
+  
+}
+.ak_details>h1{
+
+ font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ font-weight: 700;
+ font-size: 28px;
+ Color:#1f1f1f
+}
+.ak_details>ul{
+  Color:#616161;
+  font-size: 15px;
+  line-height: 35px;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ margin-left: -10px;
+
+}
+#ak_code{
+  color:white;
+  height:53px;
+  width:180px;
+  border: 0.1px;
+}
+.ak_details>h2{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+Color:#1f1f1f;
+font-size: 17px;
+line-height: 3px;
+}
+.ak_code{
+  height:50px;
+  width:180px;
+  background-color:white;
   margin-left: 10px;
-  font-size: 20px;
+  border: 00.2px solid grey;
 }
 
-.ak_Qr {
-  height: 200px;
-  width: 200px;
+.ak_p{
+  height:50px;
+  width:400px;
+  font-size: 12px;
+Color:#616161;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-
-.qr {
-  line-height: 0.2px;
-}
-
 /* QR Code Ends Here */
 
 
