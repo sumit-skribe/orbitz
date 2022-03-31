@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/common_styles.css">
-    <!-- <title>Orbitz Hotel Deals, Flights, Cheap Vacations & Rental Cars</title> -->
-    <title>Demo Orbitz</title>
-    <!-- <link type="image/x-icon" href="https://www.orbitz.com/favicon.ico" sizes="16x16 32x32" rel="shortcut icon"> -->
+    <title>Orbitz Hotel Deals, Flights, Cheap Vacations & Rental Cars</title>
+    <link type="image/x-icon" href="https://www.orbitz.com/favicon.ico" sizes="16x16 32x32" rel="shortcut icon">
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
 </head>
 
@@ -626,7 +625,6 @@
     }
 
 document.querySelector(".md_click").addEventListener("click",mdtoggle);
-
 function mdtoggle(){
 
     var show=document.querySelector(".md_signin");
@@ -638,6 +636,22 @@ function mdtoggle(){
         show.style.display='block';
     }
 }
+
+/* Adding Search Button Functionality*/
+let searchButtons = document.querySelectorAll('.sk_mult_form > div');
+for(let i = 1; i < searchButtons.length; i += 1)
+{
+    if(i === 5)
+    {
+        continue;
+    }
+    const searchButton = document.querySelector(`#${searchButtons[i].getAttribute('id')} button`);
+    searchButton.addEventListener('click',function ()
+    {
+        window.location.href = 'search_result.html';
+    });
+}
+
 
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
