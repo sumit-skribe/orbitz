@@ -217,22 +217,26 @@ body {
 
 /* Main content Start Here */
 .sk_breadcumb {
-  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2022/03/14/ORB_MarchSale_imgB_1920x1440_20220225.jpg");
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
   width: 100%;
-  background-position: center 100%;
+  /* background-position: center 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 2rem 0;
 }
 
 .sk_mult_form {
   max-width: 90%;
-  box-shadow: 0 1px 3px rgb(77, 34, 34);
+  /* box-shadow: 0 1px 3px rgb(77, 34, 34); */
   background-color: white;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   flex-direction: column;
+  height: 260px;
 }
 
 .sk_tabbed-interface 
@@ -259,10 +263,22 @@ body {
   line-height:18px;
 }
 
+.sk_tabbed-interface button:nth-child(1)
+{
+  color: teal;
+  border-bottom: 2px solid teal;
+}
+
+.sk_tabbed-interface button:hover
+{
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
 .sk_breadcumb .margin {
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: -6px;
 }
 
 .button-margin {
@@ -275,20 +291,21 @@ body {
   color: white !important;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .sk_container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 3fr 1fr 1fr 2fr;
   grid-gap: 10px;
 }
 
 .sk_font {
   display: flex;
-  border: 1px solid teal;
+  border: 1px solid black;
 }
 
 .sk_font > input {
