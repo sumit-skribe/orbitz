@@ -1,0 +1,418 @@
+/* Nav bar code start---md afzal */
+
+* {
+    padding: 0px; 
+  } 
+
+  body{
+      margin: 0px;
+  }
+  
+  
+  .md_dropdown button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 14px;
+     line-height: 18px;
+     font-weight: 500;
+  }
+  
+  .md_dropdown button>a{
+    line-height: 20px;
+  }
+  
+  .md_dropdown{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#00253c;
+    
+  }
+  
+  .md_left{
+    display: flex;
+    width: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 158px;
+  }
+  
+  .md_left ul{
+    position:absolute ;
+    background-color:white;
+    margin-top: 10px;
+    width: 375px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+     border-radius: 8px;
+    opacity: 0; 
+    pointer-events: none; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  
+  }
+  
+  .md_dropdown li{
+    margin-left: 20px;
+  }
+  
+  .md_innerdiv{
+    height: 100%;
+  }
+  
+  .md_left a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .md_dropdown button,.md_dropdown button>a{
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .md_dropdown button:hover,.md_dropdown button>a:hover{
+    color: #6bb1e3;
+    cursor: pointer;
+  }
+  
+  .md_left li a:hover{
+    color: #6bb1e3;
+  }
+  
+  #travel:focus + ul{
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .md_right a{
+    color: white;
+  }
+  
+  .md_right{
+    width: 430px;
+    justify-content: space-between;
+    margin-right: 167px;
+    position: relative;
+  }
+  
+  .md_inner_right{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* sign in page */
+  
+  .md_signin{
+    width: 375px;
+    height: 362px;
+    display: flex;
+    background-color:white;
+    position: absolute;
+    flex-direction:column ;
+    justify-content: space-around;
+    align-items: center;
+    color: #cf4b6d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0.5rem 1rem 0px rgb(0 0 0 / 24%);
+    margin-top: 10px;
+    margin-left: 63px;
+    box-sizing: border-box;
+    display: none;
+  
+  }
+  
+  
+  
+  .md_signin a,.md_signin button a{
+    color: black;
+  }
+  
+  .md_upper_div{
+    color: #1f1f1f;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .md_upper_div h3,.md_div a{
+    line-height: 20px;
+    font-size: 16px;
+  }
+  #md_sign a{
+    color: #ffffff;
+    
+  }
+  #md_sign{
+    background-color:#9f3f58 ;
+    width: 327px;
+    height: 36px;
+    border-radius: 2px;
+  }
+  #md_cfa a{
+    color: #69b3bd;
+  }
+  
+  #md_cfa a:hover{
+    color: black;
+  }
+  
+  #md_sign:hover{
+  background-color:#ad566f ;
+  }
+  
+  .md_lower_div a:hover{
+    color: #69b3bd; ;
+  }
+  
+  .md_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+  }
+  .md_lower_div{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 100%;
+    height:158px;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+  .md_lower_div hr{
+   width: 100%;
+   color: #eaeaea;
+   border-top: 1px solid #e0e0e0;
+   border-style:inset;
+  }
+  
+  .md_lower_div a{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+    color: #616161;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  
+  
+  /* sign in end */
+  
+  /* Nav bar code ends---md afzal */
+
+
+/* more travel starts */
+
+.md_form{
+    padding: 48px 24px 48px 24px;
+}
+
+.md_travel_container{
+    width: 1248px;
+    height: 343.98px;
+    margin:auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #757575;
+    margin-top: 22px;
+}
+
+.md_travel_para{
+    color: #1f1f1f;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.md_travel_upperdiv p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.md_travel_upperdiv > div{
+    display: flex;
+}
+
+.md_travel_upperdiv{
+    display:grid;
+    grid-template-columns: 493px 190px 190px 291px ;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+
+.md_1{
+    display: flex;
+    border: 1px solid #a6a6a6;
+    width: 493px;
+    height: 48px;
+}
+
+.md_1 input{
+    width: 100%;
+    border: none;
+    text-decoration: none;
+}
+
+.md_1 > input:focus {
+    outline: none;
+  }
+
+.md_2{
+    display: flex;
+    border: 1px solid #a6a6a6;
+    height: 48px;
+    line-height: 21px;
+    color:#616161 ;
+}
+
+.md_2 span{
+    margin-top: 0px;
+}
+
+.md_3{
+    width: 190px;
+}
+
+.md_4{
+    width: 291px;
+}
+
+.md_2 span{
+    font-size: 12px;
+}
+
+.md_2 div:nth-child(1){
+    margin: 10px; 
+}
+
+.md_5{
+    display: grid;
+    grid-template-columns: 198px 198px;
+    grid-template-rows: 35.987px;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.md_5 input{
+    height: 18px;
+    width: 18px;
+}
+
+.md_6{
+    margin: 10px 0px 10px 0px;
+}
+
+.md_6 button{
+    background-color: #8e3d53;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 190px;
+    height: 48px;
+    border: none; 
+}
+
+.md_6 button:hover{
+    background-color:#ad566f ;
+    }
+
+
+/* whats new start */
+
+.md_1st_container{
+  margin:auto;
+  width: 80%;
+
+}
+
+.md_2nd_container{
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,164px);
+  gap:20px;
+  padding: 0px 10px 0px ;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 21px;
+  font-weight: 400;
+  
+}
+
+.md_2nd_container>div{
+  /* background-color: #616161; */
+}
+
+.md_2nd_container > div:nth-child(1){
+  grid-area: 1/1/3/3;
+
+}
+
+.md_7,.md_8,.md_9{
+  position: relative;
+}
+
+.md_7 div{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+  color: #1f1f1f;
+  padding: 0px 10px 0px ;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.md_7 p{
+ color: #a0a0a0;
+ font-size: 16px;
+ line-height: 21px;
+ font-weight: 400;
+}
+
+.md_7 img{
+width: 100%;
+height: 100%;
+}
+
+.md_7 a,.md_8 a,.md_9 a{
+  text-decoration: none;
+}
+
+.md_8 img,.md_9 img{
+  height: 100%;
+  
+}
+
+.md_8 div, .md_9 div{
+ position: absolute;
+ bottom:0px;
+ margin-left: 135px;
+ background-color:white;
+ height: 100%;
+ color: black;
+ font-size: 16px;
+ padding:0px 0px 0px 10px ;
+
+}
+.md_8 p, .md_9 p{
+  color: #757575;
+}
+
+
+
+/* More travel ends*/
+
+

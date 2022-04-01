@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/17ea0910de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="more_travel.css">
+</head>
+<body>
+
+    <nav class="md_dropdown">
+        
+        <div class="md_left">  
+            <div class="md_innerdiv"       
+             <button><a href="#" class="home"><img src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2"" alt=""></a></button>
+            </div>
+            <div>
+              <button id="travel">More travel&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></button>
+              <ul>
+                <li><a href="#"><i class="fa-solid fa-building"></i>&nbsp;&nbsp;&nbsp;&nbsp;Stays</a></li>
+                <li><a href="#"><i class="fa-solid fa-plane-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;Flights</a></li>
+                <li><a href="#"><i class="fa-solid fa-suitcase-rolling"></i>&nbsp;&nbsp;&nbsp;&nbsp;Packages</a></li>
+                <li><a href="#"><i class="fa-solid fa-car"></i>&nbsp;&nbsp;&nbsp;&nbsp;Cars</a></li>
+                <li><a href="#"><i class="fa-solid fa-road-circle-check"></i>&nbsp;&nbsp;&nbsp;&nbsp;Cruses</a></li>
+                <li><a href="#"><i class="fa-regular fa-rectangle-list"></i>&nbsp;&nbsp;&nbsp;&nbsp;Things to do</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Groups & meetings</a></li>
+                <li><a href="#">Travel Blog</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="md_right">
+             <div class="md_inner_right">
+                <button><a href="">Español</a></button>
+                <button><a href="">List your property</a></button>
+                <button><a href="">Support</a></button>
+                <button><a href="">Trips</a></button>
+                <button class="md_click" >Sign in</button>
+           </div>
+           <div class="md_signin">
+                <div class="md_upper_div">
+                    <h3>Members can access discounts, points and special features</h3>
+                    <div class="md_div">
+                        <button id="md_sign"><a href="">Sign in</a></button>
+                        <button id="md_cfa"><a href="">Create a free account</a></button>
+                    </div>
+                </div>
+                <div class="md_lower_div">
+                   <div><a href="">List of favourites</a></div> 
+                    <div><a href="">Loyality program</a></div>
+                    <hr>
+                    <div><a href="">Feedback</a></div>
+                </div>
+           </div>
+        </div>     
+      
+    </nav>
+    
+    <div class="md_travel_container">
+        <form class="md_form">
+            <div class="md_travel_para">
+                Search stays
+            </div >
+            <div class="md_travel_upperdiv">
+                    <div class="md_1">
+                        <div style="padding:15px;"><i class="fa-solid fa-location-dot"></i></div>
+                        <input type="text" placeholder="Going to">
+                    </div>
+                    <div class="md_2 md_3">
+                        <div><i class="fa-solid fa-calendar-day"></i></div>
+                        <div  >
+                            <span>Check in</span><br/>
+                            Apr 4
+                        </div>
+                    </div>
+                    <div class="md_2 md_3">
+                        <div><i class="fa-solid fa-calendar-day"></i></div>
+                        <div>
+                            <span>Check out</span><br/>
+                            Apr 10
+                        </div>
+                    </div>
+                    <div class="md_2 md_4">
+                        <div><i class="fa-solid fa-user"></i></div>
+                        <div>
+                            <span>Travelers</span><br/>
+                            1 room,2 travelers
+                        </div>
+                    </div>
+            </div >
+                <div class="md_5">
+                    <div>
+                     <input type="checkbox"/>
+                     <span>Add a flight</span>
+
+                   </div>
+                   <div>
+                    <input type="checkbox"/>
+                    <span>Add a car</span>
+
+                   </div>
+            </div>
+            <div class="md_6">
+                <button>Search</button>
+            </div>
+            
+
+        </form>
+        
+    </div>
+
+                <!-- ------------------------- whats new------------------------------ -->
+    <div class="md_1st_container">
+            <h2>What's new</h2>
+            <div class="md_2nd_container">
+                <div class="md_7">
+                    <a href="">
+                        <img src="images/ORB_InsiderPrices_lpheroB_1680x945_20210219.webp" />
+                        <div><h4>Insider Prices</h4>
+                        <p>When you sign up for Insider Prices, you get acess t amazing discounts on hotels all around the world.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="md_8">
+                        <a href="">
+                        <img src="images/ORB_TravelAsYouAre_V2.webp" />
+                        <div><h3>Travels as You Are</h3>
+                        <p>Find LGBTQ-welcoming hotels, travel ideas, Pride events, and more.</p>
+                        </div>
+                        </a>
+                </div>
+                <div class="md_9">
+                        <a href="">
+                        <img src="images/ORB_MQ-TS_HU_164x152.webp" />
+                        <div><h3>Hotels Under $99</h3>
+                        <p>Choose from our inventor of select hotels all priced for $99 or less per night.</p>
+                        </div>
+                        </a>
+                </div>
+            </div>
+    <div/>
+
+
+
+              
+</body>
+</html>
+<script>
+
+document.querySelector(".md_click").addEventListener("click",mdtoggle);
+
+function mdtoggle(){
+
+    var show=document.querySelector(".md_signin");
+    if(show.style.display!='none')
+    {
+        show.style.display='none';
+    }
+    else{
+        show.style.display='block';
+    }
+}
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+(document).ready(function(){
+  (".div-open").click(function(){
+    (".div-hide").toggle();
+  });
+});
+</script>
