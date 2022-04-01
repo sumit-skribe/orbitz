@@ -1,3 +1,8 @@
+body
+{
+    font-family:"Segoe UI";
+}
+
 .fltr-trip
 {
     display: grid;
@@ -335,3 +340,24 @@
   right: 0;
 }
 
+.sk_container-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .sk_font-2 {
+    display: flex;
+    border: 1px solid black;
+  }  
+  .sk_font-2 > i {
+    margin: 10px;
+  }
+  
+  .sk_container-2 button
+  {
+      background-color: red;
+      border: none;
+      color: white;
+      
+  }
