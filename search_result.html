@@ -11,6 +11,44 @@
     <link rel="stylesheet" href="./styles/search_styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <style>
+        .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+    </style>
 </head>
 
 <body>
@@ -65,7 +103,14 @@
     </nav>
     <!-- Header Ends-->
 
-    <div class="sk_container-2" style="width: 80%;font-size: 16px;margin-top: 20px;margin-bottom: 20px;">
+    <div class="sk_container-mobile" style="font-size: 16px">
+            <div><center><i class="fa-solid fa-location-dot"></i></center></div>
+            <div>
+                <div>Las Vegas (and vicnity), Nevada, United States of America</div>
+                <div>Apr 16 - Apr 17 2 travelers</div>
+            </div>
+    </div>
+    <div class="sk_container-2" style="font-size: 16px;margin-top: 20px;margin-bottom: 20px;">
         <div class="sk_font-2" style="background-color: white;">
             <i class="fa-solid fa-location-dot"></i>
             <div style="padding-top: 5px;padding-bottom: 5px;">
@@ -97,7 +142,6 @@
         </div>
         <div><button>Search</button></div>
     </div>
-
     <div class="fltr-trip">
         <!-- Filter Portion -->
         <div id="vk_1_container">
@@ -249,6 +293,11 @@
         <!-- Trip-Planner -->
         <div id="container">
 
+        </div>
+        <div>
+            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?"/>
+            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?"/>
+            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?" style="position: sticky;top: 30px;"/>
         </div>
         <!-- Trip-Planner Ends Here-->
     </div>
@@ -423,6 +472,16 @@
             2083930-50.</p>
     </div>
 
+
+    <!-- Model example-->
+<!-- <div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div> -->
+
 </body>
 
 </html>
@@ -448,3 +507,12 @@
     });
 </script>
 <script src="search_result.js"></script>
+
+<script>
+
+    // let filter = document.querySelector('#vk_1_container');
+    // let model = document.querySelector('#myModal');
+    // console.log(model);
+    // model.append(filter)
+    
+</script>
