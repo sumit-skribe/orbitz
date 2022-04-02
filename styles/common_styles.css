@@ -1,216 +1,3 @@
-/* Nav bar code start---md afzal */
-/* 
-* {
-  padding: 0px;
-}
-
-
-.md_dropdown button {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 500;
-}
-
-.md_dropdown button>a {
-  line-height: 20px;
-}
-
-.md_dropdown {
-  height: 72px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #00253c;
-
-}
-
-.md_left {
-  display: flex;
-  width: 300px;
-  position: relative;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 158px;
-}
-
-.md_left ul {
-  position: absolute;
-  background-color: white;
-  margin-top: 10px;
-  width: 375px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  list-style: none;
-  border-radius: 8px;
-  opacity: 0;
-  pointer-events: none;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-.md_dropdown li {
-  margin-left: 20px;
-}
-
-.md_innerdiv {
-  height: 100%;
-}
-
-.md_left a {
-  color: black;
-  text-decoration: none;
-}
-
-.md_dropdown button,
-.md_dropdown button>a {
-  background: none;
-  border: none;
-  color: white;
-  text-decoration: none;
-}
-
-.md_dropdown button:hover,
-.md_dropdown button>a:hover {
-  color: #6bb1e3;
-  cursor: pointer;
-}
-
-.md_left li a:hover {
-  color: #6bb1e3;
-}
-
-#travel:focus+ul {
-  opacity: 1;
-  pointer-events: all;
-}
-
-.md_right a {
-  color: white;
-}
-
-.md_right {
-  width: 430px;
-  justify-content: space-between;
-  margin-right: 167px;
-  position: relative;
-}
-
-.md_inner_right {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* sign in page */
-
-/* .md_signin {
-  width: 375px;
-  height: 362px;
-  display: flex;
-  background-color: white;
-  position: absolute;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  color: #cf4b6d;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0.5rem 1rem 0px rgb(0 0 0 / 24%);
-  margin-top: 10px;
-  margin-left: 63px;
-  box-sizing: border-box;
-  display: none;
-
-}
-
-
-
-.md_signin a,
-.md_signin button a {
-  color: black;
-}
-
-.md_upper_div {
-  color: #1f1f1f;
-  height: 180px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-.md_upper_div h3,
-.md_div a {
-  line-height: 20px;
-  font-size: 16px;
-}
-
-#md_sign a {
-  color: #ffffff;
-
-}
-
-#md_sign {
-  background-color: #c8335a;
-  width: 327px;
-  height: 36px;
-  border-radius: 2px;
-}
-
-#md_cfa a {
-  color: #69b3bd;
-}
-
-#md_cfa a:hover {
-  color: black;
-}
-
-#md_sign:hover {
-  background-color: #d85676;
-}
-
-.md_lower_div a:hover {
-  color: #69b3bd;
-  ;
-}
-
-.md_div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 90px;
-}
-
-.md_lower_div {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  width: 100%;
-  height: 158px;
-  justify-content: space-around;
-  text-decoration: none;
-}
-
-.md_lower_div hr {
-  width: 100%;
-  color: #eaeaea;
-  border-top: 1px solid #e0e0e0;
-  border-style: inset;
-}
-
-.md_lower_div a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #616161;
-  text-decoration: none;
-  line-height: 18px;
-  font-size: 14px;
-  font-weight: 400;
-} */ 
-
 body{
   margin: 0px;
 }
@@ -258,6 +45,7 @@ font-size: 18px;
 }
 
 .md_nav1 ul{
+  z-index: 1000;
   position:absolute ;
   background-color:white;
   width: 325px;
@@ -378,6 +166,7 @@ font-size: 18px;
 }
 
 .md_main_container3 .md_signin2,.md_signin2{
+  z-index: 1000;
   width: 375px;
   height: 520px;
   display: flex;
@@ -469,11 +258,6 @@ background-color:#ad566f ;
   font-size: 14px;
   font-weight: 400;
 }
-
-/* sign in end */
-/* nav bar end */
-
-/* Nav bar code ends---md afzal */
 
 body {
   background-color: #f5f5f5;
@@ -649,6 +433,7 @@ body {
 
   .sk_mult_form {
     height: 380px;
+    margin-top: 72px;
   }
 
   .sk_tabbed-interface {
@@ -700,6 +485,7 @@ body {
   .sk_mult_form {
     height: 380px;
     max-width: 100%;
+    margin-top: 72px;
   }
 
   .sk_tabbed-interface {

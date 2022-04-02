@@ -13,53 +13,63 @@
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
     <style>
         .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            /* Could be more or less, depending on screen size */
+        }
 
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
     <!-- Header -->
-    <nav class="md_dropdown">
-        <div class="md_left">
-            <div class="md_innerdiv" <button><a href="#" class="home"><img
-                        src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2"" alt=""></a></button>
-            </div>
-            <div>
-              <button id=" travel">More travel&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></button>
+    <div class="md_main_container">
+        <header class="md_header">
+            <nav class="md_nav1">
+                <div><a href=""><img
+                            src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2" /></a></div>
+                <div>
+                    <button id="travel">More travel&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></button>
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-building"></i>&nbsp;&nbsp;&nbsp;&nbsp;Stays</a></li>
                         <li><a href="#"><i class="fa-solid fa-plane-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;Flights</a></li>
@@ -74,42 +84,146 @@
                         <li><a href="#">Groups & meetings</a></li>
                         <li><a href="#">Travel Blog</a></li>
                     </ul>
-            </div>
-        </div>
-        <div class="md_right">
-            <div class="md_inner_right">
-                <button><a href="">Español</a></button>
-                <button><a href="">List your property</a></button>
-                <button><a href="">Support</a></button>
-                <button><a href="">Trips</a></button>
-                <button class="md_click">Sign in</button>
-            </div>
-            <div class="md_signin">
-                <div class="md_upper_div">
-                    <h3>Members can access discounts, points and special features</h3>
-                    <div class="md_div">
-                        <button id="md_sign"><a href="">Sign in</a></button>
-                        <button id="md_cfa"><a href="">Create a free account</a></button>
+                </div>
+
+            </nav>
+
+            <nav class="md_nav2">
+                <div class="md_inner_right">
+                    <button><a href="">Español</a></button>
+                    <button><a href="">List your property</a></button>
+                    <button><a href="">Support</a></button>
+                    <button><a href="">Trips</a></button>
+                    <button class="md_click">Sign in</button>
+                </div>
+                <div class="md_signin">
+                    <div class="md_upper_div">
+                        <h3>Members can access discounts, points and special features</h3>
+                        <div class="md_div">
+                            <button id="md_sign"><a href="">Sign in</a></button>
+                            <button id="md_cfa"><a href="">Create a free account</a></button>
+                        </div>
+                    </div>
+                    <div class="md_lower_div">
+                        <div><a href="">List of favourites</a></div>
+                        <div><a href="">Loyality program</a></div>
+                        <hr>
+                        <div><a href="">Feedback</a></div>
                     </div>
                 </div>
-                <div class="md_lower_div">
-                    <div><a href="">List of favourites</a></div>
-                    <div><a href="">Loyality program</a></div>
-                    <hr>
-                    <div><a href="">Feedback</a></div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="md_main_container md_main_container2">
+        <header class="md_header">
+            <nav class="md_nav1">
+                <div><a href=""><img
+                            src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2" /></a></div>
+                <div>
+                    <button id="travel">More travel&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></button>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-building"></i>&nbsp;&nbsp;&nbsp;&nbsp;Stays</a></li>
+                        <li><a href="#"><i class="fa-solid fa-plane-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;Flights</a></li>
+                        <li><a href="#"><i class="fa-solid fa-suitcase-rolling"></i>&nbsp;&nbsp;&nbsp;&nbsp;Packages</a>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-car"></i>&nbsp;&nbsp;&nbsp;&nbsp;Cars</a></li>
+                        <li><a href="#"><i class="fa-solid fa-road-circle-check"></i>&nbsp;&nbsp;&nbsp;&nbsp;Cruses</a>
+                        </li>
+                        <li><a href="#"><i class="fa-regular fa-rectangle-list"></i>&nbsp;&nbsp;&nbsp;&nbsp;Things to
+                                do</a></li>
+                        <li><a href="#">Deals</a></li>
+                        <li><a href="#">Groups & meetings</a></li>
+                        <li><a href="#">Travel Blog</a></li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </nav>
+
+            </nav>
+
+            <nav class="md_nav2">
+                <div class="md_inner_right">
+                    <button class="md_work_logo"><i class="fa-solid fa-briefcase fa-customize"></i></button>
+                    <button class="md_click2"><i class="fa-solid fa-user fa-customize"></i></button>
+                </div>
+                <div class="md_signin2">
+                    <div class="md_upper_div">
+                        <h3>Members can access discounts, points and special features</h3>
+                        <div class="md_div">
+                            <button id="md_sign"><a href="">Sign in</a></button>
+                            <button id="md_cfa"><a href="">Create a free account</a></button>
+                        </div>
+                    </div>
+                    <div class="md_lower_div">
+                        <div><a href="">List of favourites</a></div>
+                        <div><a href="">Loyality program</a></div>
+                        <hr>
+                        <div><a href="">Customer support</a></div>
+                        <div><a href="">Feedback</a></div>
+                        <div><a href="">List your property</a></div>
+                        <hr>
+                        <div><a href="">Español</a></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="md_main_container md_main_container2 md_main_container3">
+        <header class="md_header">
+            <nav class="md_nav1">
+                <div><a href=""><img
+                            src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2" /></a></div>
+
+            </nav>
+
+            <nav class="md_nav2">
+                <div class="md_inner_right">
+
+                    <button class="md_click2"><i class="fa-solid fa-magnifying-glass fa-customize"></i></button>
+                    <button class="md_work_logo"><i class="fa-solid fa-briefcase fa-customize"></i></button>
+                    <button class="md_click3"><i class="fa-solid fa-user fa-customize"></i></button>
+                </div>
+                <div class="md_signin2 md_signin3">
+                    <div class="md_upper_div">
+                        <h3>Members can access discounts, points and special features</h3>
+                        <div class="md_div">
+                            <button id="md_sign"><a href="">Sign in</a></button>
+                            <button id="md_cfa"><a href="">Create a free account</a></button>
+                        </div>
+                    </div>
+                    <div class="md_lower_div">
+                        <div><a href="">List of favourites</a></div>
+                        <div><a href="">Loyality program</a></div>
+                        <hr>
+                        <div><a href="">Customer support</a></div>
+                        <div><a href="">Feedback</a></div>
+                        <div><a href="">List your property</a></div>
+                        <hr>
+                        <div><a href="">Español</a></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
     <!-- Header Ends-->
 
     <div class="sk_container-mobile" style="font-size: 16px">
-            <div><center><i class="fa-solid fa-location-dot"></i></center></div>
-            <div>
-                <div>Las Vegas (and vicnity), Nevada, United States of America</div>
-                <div>Apr 16 - Apr 17 2 travelers</div>
-            </div>
+        <div>
+            <center><i class="fa-solid fa-location-dot"></i></center>
+        </div>
+        <div>
+            <div>Las Vegas (and vicnity), Nevada, United States of America</div>
+            <div>Apr 16 - Apr 17 2 travelers</div>
+        </div>
     </div>
+    <div class="filter-mobile">
+        <div>
+            <div style="margin-right: 5px;"><i class="fa-solid fa-filter"></i> &nbsp;Sort & Filter</div>
+            <div style="margin-left: 5px;">View in a map</div>
+        </div>
+        <div>See how we pick our recommended properties</div>
+    </div>
+
     <div class="sk_container-2" style="font-size: 16px;margin-top: 20px;margin-bottom: 20px;">
         <div class="sk_font-2" style="background-color: white;">
             <i class="fa-solid fa-location-dot"></i>
@@ -295,9 +409,10 @@
 
         </div>
         <div>
-            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?"/>
-            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?"/>
-            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?" style="position: sticky;top: 30px;"/>
+            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?" />
+            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?" />
+            <img src="https://tpc.googlesyndication.com/simgad/1405978305585973323?"
+                style="position: sticky;top: 30px;" />
         </div>
         <!-- Trip-Planner Ends Here-->
     </div>
@@ -476,7 +591,7 @@
 
 
     <!-- Model example-->
-<!-- <div id="myModal" class="modal">
+    <!-- <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
     <p>Some text in the Modal..</p>
@@ -488,7 +603,39 @@
 
 </html>
 <script>
+    window.onresize = screen;
+    window.onload = screen;
+
+    function screen() {
+        myWidth = window.innerWidth;
+
+        var check = document.querySelector(".md_main_container");
+        var check2 = document.querySelector(".md_main_container2");
+        var check3 = document.querySelector(".md_main_container3");
+
+        if (myWidth > 575 && myWidth < 991) {
+            check.style.display = "none";
+            check3.style.display = "none"
+            check2.style.display = "flex"
+        }
+        else if (myWidth > 293 && myWidth < 575) {
+            check.style.display = "none";
+            check2.style.display = "none"
+            check3.style.display = "flex"
+        }
+        else {
+            check3.style.display = "none"
+            check2.style.display = "none"
+            check.style.display = "flex";
+
+        }
+
+    }
+
+
+
     document.querySelector(".md_click").addEventListener("click", mdtoggle);
+
     function mdtoggle() {
 
         var show = document.querySelector(".md_signin");
@@ -497,6 +644,33 @@
         }
         else {
             show.style.display = 'block';
+        }
+    }
+
+    document.querySelector(".md_click2").addEventListener("click", mdtoggle2);
+
+    function mdtoggle2() {
+
+        var show2 = document.querySelector(".md_signin2");
+        if (show2.style.display != 'none') {
+            show2.style.display = 'none';
+        }
+        else {
+            show2.style.display = 'block';
+        }
+    }
+
+    document.querySelector(".md_click3").addEventListener("click", mdtoggle3);
+
+    function mdtoggle3() {
+
+        console.log("inside function")
+        var show3 = document.querySelector(".md_signin3");
+        if (show3.style.display != 'none') {
+            show3.style.display = 'none';
+        }
+        else {
+            show3.style.display = 'block';
         }
     }
 </script>
@@ -516,5 +690,5 @@
     // let model = document.querySelector('#myModal');
     // console.log(model);
     // model.append(filter)
-    
+
 </script>

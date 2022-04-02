@@ -14,6 +14,10 @@ body {
 .sk_container-mobile {
     display: none;
 }
+.filter-mobile
+{
+    display:none;
+}
 
 #container .trip-card {
     margin-bottom: 10px;
@@ -351,6 +355,25 @@ body {
         width: 10%;
         box-sizing: border-box;
         padding-top: 10px;
+    }
+    .filter-mobile
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+    .filter-mobile > div:nth-child(1)
+    {
+        display: flex;
+    }
+    .filter-mobile > div:nth-child(1) > div
+    {
+        border: 1px solid black;
+        flex-grow: 1;
+        box-sizing: border-box;
+        padding:10px;
+        
     }
 }
 
