@@ -591,6 +591,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   margin-left: auto;
+  font-size: 28px;
 }
 
 .av_img1 {
@@ -613,6 +614,62 @@ body {
   background-size: cover;
 }
 
+
+@media only screen and (min-width:293px) and (max-width:575px)
+{
+  .av_row{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    height: auto;
+  }
+  .av_column img
+  {
+    height: 200px;    
+  }
+  .av_row1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    height: auto;
+    grid-gap: 0px;
+  }
+  .av_row1 > div
+  {
+    height: 100%;
+  }
+  .av_row1 h3 {
+    padding-top: 135px;
+  }
+  .av_main>.av_h3
+  {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width:575px) and (max-width:991px)
+{
+  .av_row1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+    height: auto;
+    grid-gap: 0px;
+  }
+  .av_row1 > div
+  {
+    height: 100%;
+  }
+  .av_row1 h3 {
+    padding-top: 330px;
+  }
+  .av_main>.av_h3
+  {
+    margin-bottom: 0px;
+    margin-top: 50px;
+  }
+}
 /* AV code is end */
 
 /* Help & Travelling Tips Start Here */
