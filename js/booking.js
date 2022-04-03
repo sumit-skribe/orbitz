@@ -334,7 +334,17 @@ function init_6() {
 }
 init_6();
 
-console.log()
+let eleSection = document.createElement('div');
+eleSection.setAttribute('class','ap_section')
+let eleImage = document.createElement('img');
+eleImage.src = JSON.parse(localStorage.getItem('data')).hotelImages[0];
+eleSection.append(eleImage)
+
+
+$(document).ready(function () {
+  $(".ap_container").prepend(eleSection);      
+    });
+
 
 let dd = document.querySelector('.dynamic-data');
 console.log(dd)
