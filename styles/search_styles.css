@@ -14,9 +14,9 @@ body {
 .sk_container-mobile {
     display: none;
 }
-.filter-mobile
-{
-    display:none;
+
+.filter-mobile {
+    display: none;
 }
 
 #container .trip-card {
@@ -348,6 +348,7 @@ body {
         background-color: white !important;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-top: 72px;
     }
 
     .sk_container-mobile>div:nth-child(1) {
@@ -355,25 +356,31 @@ body {
         width: 10%;
         box-sizing: border-box;
         padding-top: 10px;
+
     }
-    .filter-mobile
-    {
-        display:grid;
+
+    .sk_container-mobile> div> div:nth-child(1) {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .filter-mobile {
+        display: grid;
         grid-template-columns: 1fr;
         margin: 20px;
         margin-bottom: 0px;
     }
-    .filter-mobile > div:nth-child(1)
-    {
+
+    .filter-mobile>div:nth-child(1) {
         display: flex;
     }
-    .filter-mobile > div:nth-child(1) > div
-    {
+
+    .filter-mobile>div:nth-child(1)>div {
         border: 1px solid black;
         flex-grow: 1;
         box-sizing: border-box;
-        padding:10px;
-        
+        padding: 10px;
+
     }
 }
 
@@ -480,6 +487,25 @@ body {
     margin-top: -3%;
     color: #a4a4a4;
     padding-right: 10%;
+}
+
+#vk_check>p {
+    font-size: 0.875rem;
+    line-height: 1.42857;
+    color: #616161;
+}
+
+#vk_check2>p {
+    font-size: 0.875rem;
+    line-height: 1.42857;
+    color: #616161;
+}
+
+.vk_pdiv {
+    color: #616161;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
 }
 
 /* Filter Bar Stylesheet Ends Here */
