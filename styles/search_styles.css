@@ -359,8 +359,13 @@ body {
 
     }
 
-    .sk_container-mobile> div> div:nth-child(1) {
+    .sk_container-mobile>div>div:nth-child(1) {
         font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .sk_container-mobile>div>div:nth-child(2) {
+        font-size: 0.8rem;
         font-weight: 500;
     }
 
@@ -381,6 +386,27 @@ body {
         box-sizing: border-box;
         padding: 10px;
 
+    }
+    .filter-mobile > div:nth-child(2)
+    {
+        text-align: center;
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: black;
+    }
+    .filter-mobile {
+        margin-bottom: 20px;
+        color: teal;
+    }
+
+    .filter-mobile>div:nth-child(1)>div {
+        background-color: white;
+        margin-bottom: 10px;
+    }
+    .filter-mobile > div:nth-child(1)
+    {
+        text-align: center;
+        font-weight: 500;
     }
 }
 
