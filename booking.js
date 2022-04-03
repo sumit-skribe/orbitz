@@ -333,3 +333,13 @@ function init_6() {
 
 }
 init_6();
+
+console.log()
+
+let dd = document.querySelector('.dynamic-data');
+console.log(dd)
+let hEle = document.createElement('h1');
+hEle.innerText = JSON.parse(localStorage.getItem('data')).hotelName;
+
+console.log(hEle)
+dd.append(hEle);

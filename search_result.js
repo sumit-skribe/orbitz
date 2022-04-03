@@ -332,6 +332,6 @@ for(let i = 0; i < tripData.length;i += 1)
 
     
     localStorage.setItem('data', JSON.stringify(dataToShow));
-    
+    window.location.href = 'booking.html';
   });
 }
