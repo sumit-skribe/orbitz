@@ -13,7 +13,7 @@ body{
 }
 /* ap code starts here */
 .ap_outer{
-width: 80%;
+width:90%;
 margin: auto;
 height: 920px;
 margin-top: 30px;
@@ -65,13 +65,15 @@ margin-left: 15px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+padding:5px 10px;
+
 }
 .ap_nav1{
 width: 100%;
 display: flex;
-flex-direction: row;
-
+align-items:center;
 }
+
 .ap_nav1>p{
 font-size: 16px;
 font-weight: 500;
@@ -79,15 +81,14 @@ margin-right: 20px;
 
 }
 
-.ap_nav1>div>button{
+.ap_nav1>button{
 background-color: #c83259;
 width: 160px;
 height: 32px;
 color: white;
 font-size: 16px;
 border: none;
-margin-left: 400px; 
-margin-top: 10px;   
+margin-left:auto; 
 }
 #ap_hr{
 margin-top: 0px;
@@ -182,13 +183,14 @@ border-radius: 15px;
 
 /* VIP */
 .ap_vip{
-width: 80%;
+width: 90%;
 margin: auto;
 margin-top: 20px;
-height: 140px;
 background-color: white;
 display: flex;
 flex-direction: column;
+padding:2rem;
+    box-sizing: border-box;
 }
 #ap_vip{
 margin-left: 20px;
@@ -216,17 +218,22 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: auto;
 }
+.ap_vip2 div:last-child p i{
+	float:left;
+}
+.ap_vip2 div:last-child p span{
+	overflow:hidden;
+}
 .ap_vip2>div{
 margin-left: 20px;
 }
 .ap_vip>a{
-margin-left: 79%;
+margin-left: auto;
 }
 /* book */
 .ap_book{
-width: 80%;
+width: 90%;
 margin: auto;
-height: 80px;
 background-color: white;
 margin: auto;
 margin-top: 15px;
@@ -238,6 +245,7 @@ display: grid;
 grid-template-columns: 0.1fr 2fr;
 grid-template-rows: auto;
 gap: 10px;
+padding:2rem;
 }
 #ap_col1{
 margin-top: 20px;
@@ -306,7 +314,7 @@ margin-left: 10%;
 /* Room */
 
 .ap_room{
-width: 80%;
+width:90%;
 margin: auto;
 margin-top: 25px;
 display: grid;
@@ -374,7 +382,6 @@ background-color: #c83259;
 color: white;
 font-size: 16px;
 border: none;
-margin-left: 110px;
 }
 
 /* medium*/
@@ -554,7 +561,6 @@ margin-left: 250px;
   width: 80%;
   margin: auto;
   margin-top: 20px;
-  height: 300px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #fff;
@@ -562,6 +568,7 @@ margin-left: 250px;
   box-sizing: border-box;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
+  gap:2rem;
  
 }
 
@@ -572,7 +579,8 @@ margin-left: 250px;
 .av_2main {
   width: 80%;
   margin: auto;
-  height: 280px;
+  padding-block:2rem;
+  box-sizing:border-box;
   margin-top: 20px;
   box-sizing: inherit;
   font-size: 14px;
@@ -636,7 +644,7 @@ margin-left: 3%
   border-style: solid;
   border-width: 0px;
   background-repeat: no-repeat;
-  grid-column-start: span 3;
+  grid-column: span 3;
   box-sizing: border-box;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 

@@ -31,6 +31,10 @@ body {
     font-family: "Segoe UI";
     font-style: normal;
 }
+.trip-data:hover
+{
+    cursor: pointer;
+}
 
 .trip-card>.trip-data {
     display: flex;

@@ -311,3 +311,11 @@ function init()
 }
 
 init();
+
+let tripData = document.querySelectorAll('.trip-data');
+for(let i = 0; i < tripData.length;i += 1)
+{
+  tripData[i].addEventListener('click',function(event){
+    console.log(tripData[i])    
+  });
+}

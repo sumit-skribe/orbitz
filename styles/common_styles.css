@@ -790,7 +790,13 @@ body {
   object-fit: cover;
   padding: 0px;
   box-sizing: border-box;
-
+  position:relative;	
+}
+.travel-blog:before{
+	content:"";
+	position:absolute;
+	inset:0;
+	background:rgba(0,0,0,0.5);
 }
 
 @media only screen and (min-width:575px) and (max-width:991px) {
@@ -1079,6 +1085,8 @@ select:focus {
 #vk_container {
   display: grid;
   grid-template-columns: 1fr 4fr;
+   width: 90%;
+    margin: 0 auto;
 }
 
 #vk_container>div:nth-child(2) {
@@ -1098,7 +1106,7 @@ select:focus {
 #vk_container>div {
   width: 230px;
   height: 100%;
-  margin: auto;
+  margin:0;
   flex-direction: column;
 }
 
