@@ -784,105 +784,216 @@ body {
 /* Help & Travelling Tips End Here */
 
 /* QR Code Start Here */
-.ak_qr>img {
-
-  height: 100px;
-  width: 100px;
-  margin-left: 25px;
+.reward-content-hidden-button {
+  display: none;
 }
 
-.ak_qr>h3 {
-  margin-left: 20px;
-  margin-top: 10px;
-  font-size: 15px;
-}
-
-.ak_main {
-  height: 380px;
+.reward-box {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  font-family: "Segoe UI";
   width: 90%;
-  display: flex;
-  background-color: #ffffff;
   margin: auto;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  ;
-}
-
-.ak_mobileimg>img {
-  height: 380px;
-  width: 400px;
-
-}
-
-.ak_details {
-
-  margin-left: 17px;
-
-  width: 650px;
-
-}
-
-#point li {
-  margin-left: 5%;
-}
-
-.ak_details>h1 {
-  padding-right: 10%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-  Color: #616161
-}
-
-.ak_qr img {
-  width: 150px;
-  height: 150px;
-  padding-top: 12%;
-}
-
-#ak_Qr {
-  margin-right: 19px;
-}
-
-.ak_details>ul {
-  Color: #616161;
-  font-size: 15px;
-  line-height: 35px;
-  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin-left: -10px;
-
-}
-
-#ak_code {
-  color: white;
-  height: 51px;
-  width: 180px;
-  border: 0.1px;
-  margin-left: 3%;
-}
-
-.ak_details>h2 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  Color: #1f1f1f;
-  font-size: 17px;
-  line-height: 3px;
-}
-
-.ak_code {
-  height: 50px;
-  width: 180px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   background-color: white;
-  margin-left: 10px;
-  border: 00.2px solid grey;
+  margin-top: 2rem;
 }
 
+.reward-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-.ak_p {
-  height: 50px;
-  width: 400px;
-  font-size: 12px;
-  Color: #616161;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin-left: -1%;
+.reward-content-qr {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+.reward-content h1 {
+  color: #1F1F1F;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.reward-content h2 {
+  color: #1F1F1F;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+}
+
+.reward-content li {
+  color: gray;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.reward-content li:nth-child(2),
+.reward-content li:nth-child(3) {
+  margin-top: 0.5rem;
+}
+
+.reward-content ul {
+  list-style: none;
+}
+
+.reward-content ul li::before {
+  content: "\2022";
+  color: #616161;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -2.8em;
+  padding-right: 10px;
+}
+
+select {
+  appearance: none;
+  border: none;
+  color: #1F1F1F;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  font-family: "Segoe UI";
+}
+
+select:focus {
+  outline: none;
+}
+
+.reward-content-form-select p {
+  color: #1F1F1F;
+  font-size: 0.7rem;
+  font-weight: 400;
+  width: 100%;
+  font-family: "Segoe UI";
+  margin: 0px;
+}
+
+.reward-content-form-select>div:nth-child(1) {
+  border: 1px solid black;
+}
+
+.reward-content-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.reward-content-form>div>input {
+  height: 38px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.reward-content-form>div>button {
+  font-family: "Segoe UI";
+  border: none;
+  height: 38px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #C83259;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0.25rem 1rem;
+  font-weight: 500;
+  font-family: "Segoe UI";
+}
+
+.reward-content>p {
+  line-height: calc(16 / 12);
+  color: #616161;
+  font-size: 0.75rem;
+}
+
+.reward-qr img {
+  padding-left: 20px;
+  width: 70%;
+  height: 35%;
+  object-fit: cover;
+}
+
+.reward-content-form-select>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width:575px) and (max-width:991px) {
+  .reward-box {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+
+  .reward-content-qr .reward-qr,
+  .reward-content-qr .reward-content>h2,
+  .reward-content-qr .reward-content>.reward-content-form,
+  .reward-content-qr .reward-content>p {
+      display: none;
+  }
+
+  .reward-content-qr {
+      display: block;
+  }
+
+  .reward-content-hidden-button {
+      display: block;
+      font-family: "Segoe UI";
+      border: none;
+      height: 38px;
+      box-sizing: border-box;
+      background: #C83259;
+      color: white;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      padding: 0.25rem 1rem;
+      font-weight: 500;
+      font-family: "Segoe UI";
+  }
+}
+
+@media only screen and (min-width:293px) and (max-width:575px) {
+  .reward-box {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+
+  .reward-content-qr .reward-qr,
+  .reward-content-qr .reward-content>h2,
+  .reward-content-qr .reward-content>.reward-content-form,
+  .reward-content-qr .reward-content>p {
+      display: none;
+  }
+
+  .reward-content-qr {
+      display: block;
+  }
+
+  .reward-content-hidden-button {
+      display: block;
+      font-family: "Segoe UI";
+      border: none;
+      height: 38px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #C83259;
+      color: white;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      padding: 0.25rem 1rem;
+      font-weight: 500;
+      font-family: "Segoe UI";
+  }
 }
 
 /* QR Code Ends Here */
