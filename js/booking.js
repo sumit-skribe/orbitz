@@ -343,3 +343,45 @@ hEle.innerText = JSON.parse(localStorage.getItem('data')).hotelName;
 
 console.log(hEle)
 dd.append(hEle);
+
+
+document.querySelector(".button_1").addEventListener("click",paymentPage);
+
+function paymentPage(){
+  window.location.href="reserve.html"
+
+}
+
+document.querySelector(".button_2").addEventListener("click",paymentPage2);
+
+function paymentPage2(){
+  window.location.href="reserve.html"
+}
+
+document.querySelector(".button_3").addEventListener("click",paymentPage3);
+
+function paymentPage3(){
+  window.location.href="reserve.html"
+}
+document.querySelector(".button_4").addEventListener("click",paymentPage4);
+
+function paymentPage4(){
+  window.location.href="reserve.html"
+}
+document.querySelector(".button_5").addEventListener("click",paymentPage5);
+
+function paymentPage5(){
+  window.location.href="reserve.html"
+}
+
+document.querySelector(".button_6").addEventListener("click",paymentPage6);
+
+function paymentPage6(){
+  window.location.href="reserve.html"
+}
+
+document.querySelector(".button_7").addEventListener("click",paymentPage7);
+
+function paymentPage7(){
+  window.location.href="reserve.html"
+}

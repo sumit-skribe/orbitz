@@ -398,7 +398,7 @@ border: none;
 width: 90%;
 margin: auto;
 height: 1300px;
-margin-top: 30px;
+margin-top: 88px;
 background-color: white;
 }
 .ap_section1{
@@ -488,7 +488,7 @@ height: 200px;
 width: 100%;
 margin: auto;
 height: 1440px;
-margin-top: 30px;
+margin-top: 88px;
 background-color: white;
 }
 #ap1,#ap2{
@@ -883,6 +883,9 @@ background: black;
 right: 0;
 }
 
-
+.button_1:hover,.button_2:hover,.button_3:hover,.button_4:hover,.button_5:hover,.button_6:hover,.button_7:hover{
+  cursor: pointer;
+  background-color:#ad566f ;
+}
 
 
