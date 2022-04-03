@@ -167,7 +167,7 @@ const data = [
 function init() 
 {
     const eleContainer = document.querySelector('#container');
-    for(let j = 0;j < 15; j += 1)
+    for(let j = 0;j < 20; j += 1)
     {
       let ran = Math.floor(Math.random() * 10);
       const trip_card = document.createElement('div');
