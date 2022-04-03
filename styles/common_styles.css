@@ -267,6 +267,11 @@ body {
 
 
 /* Main content Start Here */
+.service button
+{
+  cursor: pointer;
+}
+
 .sk_breadcumb {
   background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
   width: 100%;
@@ -537,7 +542,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 3rem;
 }
 
 .av_column {
@@ -667,7 +672,7 @@ body {
   .av_main>.av_h3
   {
     margin-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 1rem;
   }
 }
 /* AV code is end */
