@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <style>
+        .travel-sumit {
+            font-family: 'Segoe UI';
+            width: 90%;
+            margin: auto;
+        }
+
+        .travel-sumit>h1 {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .travel-container-main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 15px;
+        }
+
+        .travel-container {
+            border: 1px solid black;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+        }
+
+        .travel-container>div {
+            margin: 18px;
+        }
+
+        .travel-container>div:nth-child(1) {
+            margin-right: 0px;
+        }
+
+        .travel-container p {
+            margin: 0px;
+        }
+
+        .travel-container p:nth-child(1) {
+            color: black;
+            font-family: 'Segoe UI';
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 600;
+        }
+
+        .travel-container p:nth-child(2) {
+            color: #616161;
+            font-family: 'Segoe UI';
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .travel-container>div:nth-child(2) {
+            background-color: aliceblue;
+            align-self: flex-start;
+            justify-self: flex-end;
+            background-color: white;
+        }
+
+        .travel-container i {
+            font-size: 0.8rem;
+            background-color: white;
+        }
+
+        @media only screen and (min-width:293px) and (max-width:575px) {
+            .travel-container-main {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="travel-sumit">
+        <h1>Here to help keep you on the move</h1>
+        <div class="travel-container-main">
+            <div class="travel-container">
+                <div>
+                    <p>Change or cancel a trip</p>
+                    <p>Make updates to your itinerary or cancel a booking</p>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-pen"></i></div>
+                </div>
+            </div>
+            <div class="travel-container">
+                <div>
+                    <p>Use a credit or coupon</p>
+                    <p>Apply a coupon code or credit to a new trip</p>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-dollar-sign"></i></div>
+                </div>
+            </div>
+            <div class="travel-container">
+                <div>
+                    <p>Track your refund</p>
+                    <p>Check the status of a refund currently in progress</p>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-message"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

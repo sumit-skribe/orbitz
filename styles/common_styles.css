@@ -582,7 +582,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .av_row1>div>p {
@@ -688,254 +688,167 @@ body {
 }
 
 /* AV code is end */
-
 /* Help & Travelling Tips Start Here */
-
-.ap_outer {
+.travel-sumit {
+  font-family: 'Segoe UI';
   width: 90%;
   margin: auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
 }
 
-.ap_container {
-  height: 40px;
-  margin: auto;
+.travel-sumit>h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.travel-container-main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  gap: 18px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
 }
 
-.ap_container>div {
-  width: 100%;
-  height: 100%;
+.travel-container {
+  border: 1px solid black;
   background-color: white;
-  border: 1px solid #c7c7c7;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
 
-.ap_here {
-  font-size: 28px;
-  margin-left: 0px;
-  margin-top: 70px;
+.travel-container:hover {
+  cursor: pointer;
 }
 
-.ap_text>h3,
-.ap_text>p {
-  margin-left: 15px;
-  line-height: 10px;
+.travel-container>div {
+  margin: 18px;
 }
 
-.ap_text>h3 {
-  font-size: 20px;
+.travel-container>div:nth-child(1) {
+  margin-right: 0px;
 }
 
-#ap_h1 {
-  margin-top: 65px;
-  margin-left: 0px;
-  font-size: 28px;
+.travel-container p {
+  margin: 0px;
 }
 
-.ap_text>p {
+.travel-container p:nth-child(1) {
+  color: black;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.travel-container p:nth-child(2) {
+  color: #616161;
+  font-family: 'Segoe UI';
   font-size: 12px;
+  margin-top: 5px;
 }
 
-.ap_text>h3>i {
-  font-size: 14px;
-  margin-left: 130px;
-}
-
-.ap_inner {
-  height: 220px;
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  gap: 20px;
-}
-
-.ap_inner1,
-.ap_inner2 {
-  margin-top: -30px;
-  padding: 30px;
-  color: white;
-  background-size: cover;
-}
-
-.ap_inner1 {
-  background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg);
-  opacity: 1;
-}
-
-.ap_inner2 {
-  background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg);
-}
-
-.ap_inner>div>p {
-  margin-top: -10px;
-  margin-left: 0px;
-  color: white;
-}
-
-.ap_inner>div>h2 {
-  margin-top: 40px;
-  margin-left: 0px;
-}
-
-.ap_inner>div>button {
-  height: 35px;
-  width: 120px;
+.travel-container>div:nth-child(2) {
+  background-color: aliceblue;
+  align-self: flex-start;
+  justify-self: flex-end;
   background-color: white;
-  border: none;
-  color: teal;
-  font-size: 15px;
-  font-weight: bolder;
 }
 
-.ap_outer>img {
-  margin-top: 60px;
-  margin-left: 10%;
-  margin-bottom: 40px;
+.travel-container i {
+  font-size: 0.8rem;
+  background-color: white;
+}
+
+@media only screen and (min-width:293px) and (max-width:575px) {
+  .travel-container-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+}
+
+.travel-blog-container {
+  font-family: 'Segoe UI';
+  width: 90%;
+  margin: auto;
+}
+
+.travel-blog-container>h1 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.travel-blog-sumit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 251px;
+  grid-gap: 30px;
+}
+
+.travel-blog {
+  background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg');
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 0px;
+  box-sizing: border-box;
+
 }
 
 @media only screen and (min-width:575px) and (max-width:991px) {
-
-  .ap_outer {
-    width: 90%;
-    margin: auto;
-    margin-top: -60px;
-
-  }
-
-  .ap_container {
-    width: 100%;
-    height: 40px;
-    margin: auto;
+  .travel-blog-sumit {
     display: grid;
-    grid-template-rows: 130px;
-    gap: 10px;
-  }
-
-  .ap_inner {
-
-    margin-top: 5px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 370px 370px;
-    gap: 20px;
-  }
-
-  .ap_inner1,
-  .ap_inner2 {
-    margin-top: 20px;
-
-  }
-
-  .ap_outer>img {
-    height: 0px;
-    width: 0px;
-  }
-
-  #ap_h1 {
-    margin-bottom: -10px;
-    font-size: 28px;
-    padding: 10px;
-    text-overflow: clip;
-  }
-
-  .ap_container {
-    height: 60px;
-
-  }
-
-  .ap_container>div {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    border: 1px solid #c7c7c7;
-  }
-
-
-  .ap_text>h3 {
-    font-size: 18px;
-
-  }
-
-  #ap_h1 {
-    margin-left: -10px;
-  }
-
-  .ap_text>p,
-  .ap_text>h3 {
-    line-height: 120%;
-    margin-right: 10px;
-    justify-content: center;
-  }
-
-  .ap_text>h3>i {
-    font-size: 0px;
-
-  }
-
-  .ap_nav {
-    margin-top: 145px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 251px 251px;
+    grid-gap: 30px;
   }
 }
 
-/* small screens */
 @media only screen and (min-width:293px) and (max-width:575px) {
-
-  .ap_outer {
-    width: 90%;
-    margin: auto;
-    margin-top: -60px;
-
-  }
-
-  .ap_container {
-    width: 100%;
-    height: 20px;
-    margin: auto;
+  .travel-blog-sumit {
     display: grid;
-    grid-template-columns: repeat(1, 4fr);
-    grid-template-rows: auto;
-    gap: 18px;
-  }
-
-  .ap_text>h3>i {
-    font-size: 14px;
-    margin-left: 190px;
-
-  }
-
-
-  #ap_h3>i {
-    margin-left: 230;
-  }
-
-  .ap_inner {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1.6fr;
-    grid-template-rows: 420px 470px;
-    gap: 30px;
-  }
-
-  .ap_inner2 {
-    margin-top: 20px;
-  }
-
-  .ap_inner>div>h2 {
-    margin-top: 280px;
-    margin-left: 0px;
-  }
-
-  #ap_h1 {
-    margin-top: 260px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 251px 251px;
+    grid-gap: 30px;
   }
 }
 
-/* Help & Travelling Tips End Here */
+.travel-blog>div {
+  position: relative;
+  top: 35%;
+  left: 5%;
+}
+
+.travel-blog>div>h1,
+.travel-blog>div>p {
+  margin: 0px;
+}
+
+.travel-blog>div>h1 {
+  font-family: 'Segoe UI';
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.travel-blog>div>p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 7px;
+}
+
+.travel-blog>div>button {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  color: teal;
+  background-color: white;
+  font-weight: 500;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 /* QR Code Start Here */
 .reward-content-hidden-button {
