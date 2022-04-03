@@ -316,6 +316,22 @@ let tripData = document.querySelectorAll('.trip-data');
 for(let i = 0; i < tripData.length;i += 1)
 {
   tripData[i].addEventListener('click',function(event){
-    console.log(tripData[i])    
+    let hotelName = tripData[i].childNodes[0].childNodes[0].innerText;
+    let hotelLocation = tripData[i].childNodes[0].childNodes[1].innerText; 
+    let images_ = tripData[i].parentElement.childNodes[0].childNodes[0].childNodes[2].childNodes;
+    let images__ = []
+    let dataToShow = {};
+    for(let j = 0; j < images_.length; j ++)
+    {
+      images__.push(images_[j].childNodes[0].src);
+    }
+    
+    dataToShow['hotelName'] = hotelName;
+    dataToShow['hotelLocation'] = hotelLocation;
+    dataToShow['hotelImages'] = images__;
+
+    
+    localStorage.setItem('data', JSON.stringify(dataToShow));
+    
   });
 }
