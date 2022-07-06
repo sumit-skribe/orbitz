@@ -29,4 +29,5 @@ function myfunction()
     
     function homePage()
 {
-    window.location.href = "../index.html"
+    window.location.href = "../index.html";
+}
